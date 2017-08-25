@@ -3,9 +3,9 @@ Data analysis from openstreetmap of mumbai
 
 Wrangle-OpenStreetMap-Data
 
-The goal of this project was to use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for Austin, TX.
+The goal of this project was to use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for mumbai,India.
 
-Objectives
+OBJECTIVES
 
 Assess the quality of the data for validity, accuracy, completeness, consistency and uniformity.
 Parsing and gather data from popular file formats such as .json, .xml, .csv, .html.
