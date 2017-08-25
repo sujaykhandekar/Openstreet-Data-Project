@@ -1,11 +1,11 @@
 # Openstreet-Data-Project
 Data analysis from openstreetmap of mumbai
 
-Wrangle-OpenStreetMap-Data
+#WRANGLE OPENSTREETMAP DATA OF MUMBAI
 
 The goal of this project was to use data munging techniques, such as assessing the quality of the data for validity, accuracy, completeness, consistency and uniformity, to clean the OpenStreetMap data for mumbai,India.
 
-OBJECTIVES
+#OBJECTIVES
 
 Assess the quality of the data for validity, accuracy, completeness, consistency and uniformity.
 Parsing and gather data from popular file formats such as .json, .xml, .csv, .html.
