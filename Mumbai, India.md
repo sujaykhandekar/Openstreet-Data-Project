@@ -33,4 +33,4 @@ Street Names: Incomplete ('hanuman raod ___') or incorrect names ('Zhopadpatti')
 
 Postal Codes: Inconsistent postal code formats ('500023' and '120045') and incorrect post codes ('123')
 
-To tackle these issues, I had to create python scripts to clean each respective category of data.Auditing part is explained in mumbai_india.ipny notebook
+To tackle these issues, I had to create python scripts to clean each respective category of data. Auditing part is explained in Openstreetmap.ipynb notebook
