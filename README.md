@@ -16,10 +16,18 @@ Learn how to store, query, and aggregate data using SQL.
 
 This project was created in conjunction with the Data Analytics Nanodegree through Udacity
 
-Beaulieu, Alan. Learning sql. " O'Reilly Media, Inc.", 2009.
+Udacity - https://www.udacity.com/
 
-McKinney, Wes. Python for data analysis: Data wrangling with Pandas, NumPy, and IPython. " O'Reilly Media, Inc.", 2012.
+Wikipedia - https://www.wikipedia.org/
 
-Mitchell, Ryan. Web scraping with Python: collecting data from the modern web. " O'Reilly Media, Inc.", 2015.
+OpenStreetMap - https://www.openstreetmap.org
 
-Han, Jiawei, Jian Pei, and Micheline Kamber. Data mining: concepts and techniques. Elsevier, 2011.
+Overpass API - http://overpass-api.de/
+
+Python Software Foundation - https://www.python.org/
+
+Urban Redevelopment Authority of Singapore - https://www.ura.gov.sg
+
+Catherine Devlin's Github repository - https://github.com/catherinedevlin/ipython-sql
+
+Google Map APIs - https://developers.google.com/maps/
