@@ -81,8 +81,7 @@ def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIE
             way_attribs[way] = element.attrib[way]
         for tag in element.iter("tag"):
             tag_dict1= {}
-            if tag.attrib['k'] == 'addr:street':
-                tag.attrib['v'] = update_name(tag.attrib['v'], mapping)
+            
             if tag.attrib["k"] == 'addr:postcode':
                 tag.attrib["v"] = update_postcode(tag.attrib["v"])
             tag_dict1['id'] = way_attribs['id']
