@@ -12,7 +12,8 @@ import xml.etree.cElementTree as ET
 import cerberus
 
 import schema
-
+from audit_names import update_name
+from update_post import update_postcode
 OSM_PATH = "mumbai_india.osm"
 
 NODES_PATH = "nodes.csv"
