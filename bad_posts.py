@@ -22,10 +22,6 @@ for i in tree.getiterator('tag'):
             counttotal = counttotal +1
             if len(v1) <> 6:
                 v1 = v1.replace(" ","")
-                v1 = v1.replace(",","")
-                v1 = v1.replace("-","")
-                v1 = v1.replace('"',"")
-                v1 = v1.replace('55',"5")
                 m2 = regex.match(v1)
                 if not m2:
                     wp.append(v1)
