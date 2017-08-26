@@ -26,8 +26,6 @@ Overpass API - http://overpass-api.de/
 
 Python Software Foundation - https://www.python.org/
 
-Urban Redevelopment Authority of Singapore - https://www.ura.gov.sg
-
 Catherine Devlin's Github repository - https://github.com/catherinedevlin/ipython-sql
 
 Google Map APIs - https://developers.google.com/maps/
