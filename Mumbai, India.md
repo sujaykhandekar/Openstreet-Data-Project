@@ -28,6 +28,8 @@ https://mapzen.com/data/metro-extracts/metro/mumbai_india/
 
 Problems Encountered in the Map
 Once the location was decided, I downloaded the full extract of the region and ran Python code to investigate any issues with the data. The following problems were discovered:
-Street Names: Incomplete ('Van Ness ___') or incorrect names ('Del Amo Blvd Apt #B'), along with street abbreviations ('rd.' instead of 'Road')
+Street Names: Incomplete ('hanuman raod ___') or incorrect names ('Zhopadpatti'), along with street abbreviations ('rd.' instead of 'Road')
+
 Postal Codes: Inconsistent postal code formats ('500023' and '120045') and incorrect post codes ('123')
+
 To tackle these issues, I had to create python scripts to clean each respective category of data.Auditing part is explained in mumbai_india.ipny notebook
