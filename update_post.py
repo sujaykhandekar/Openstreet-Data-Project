@@ -6,10 +6,8 @@ import pprint
 def update_postcode(postcode):
     search = re.search(r'^\D*(\d{6}).*',postcode)
     search1 = re.search('^(4)(0)\d{4}$',postcode)
-    if search:
+    if search1:
         return search.group(1)
-    elif search1:
-        return search1.group(1)
     else :
         return '000000'
 for i in tree.getiterator('tag'):
