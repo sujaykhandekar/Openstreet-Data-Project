@@ -74,12 +74,6 @@ with open('ways_nodes.csv','rb') as thr: # `with` statement available in 2.5+
     # csv.DictReader uses first line in file for column headings by default
     dr = csv.DictReader(thr) # comma is default delimiter
     to_db = [(i['id'].decode("utf-8"),i['node_id'].decode("utf-8"),i['position'].decode("utf-8")) for i in dr]
-SELECT tags.value, COUNT(*) as count 
-FROM (SELECT * FROM node_tags UNION ALL 
-      SELECT * FROM way_tags) tags
-WHERE tags.key LIKE '%city'
-GROUP BY tags.value
-ORDER BY count DESC
-LIMIT 10;
+
 cur.executemany("INSERT INTO ways_nodes (id, node_id, position) VALUES (?,?,?);", to_db)
 con.commit()
