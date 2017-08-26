@@ -9,14 +9,6 @@ root = tree.getroot()
 
 postal_type_re = re.compile('^(4)(0)\d{4}$')
 
-
-
-
-expected = [ 'tiger:zip_left','tiger:zip_left_1','tiger:zip_left_2',
-             'tiger:zip_left_3','tiger:zip_left_4', 'tiger:zip_right',
-             'tiger:zip_right_1','tiger:zip_right_2','tiger:zip_right_3',
-             'tiger:zip_right_4','addr:postcode']
-
 def audit_postal_code(postal_types,postal_value):
     m = postal_type_re.search(postal_value)
     if m:
