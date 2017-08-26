@@ -17,6 +17,7 @@ The second area with room for future improvement is the exploratory analysis of 
 5.Selection of a bank based on the average distance you have to walk for an ATM.
 
 6.Which area has the biggest parks and recreation spaces.
+
 The scope of the current project was the wrangling of the dataset, so all the above have been left for future improvement.
 
 ## Increasing Submissions
